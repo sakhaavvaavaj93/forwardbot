@@ -1,0 +1,59 @@
+{
+  "name": "forward bot",
+  "logo" : "https://telegra.ph/file/60bc6f589cd23bbb90619.jpg",
+  "description": "Telegram bot to forward messages automaticaly done by https://t.me/vaasukionfire7966 on tg",
+  "keywords": [
+    "telegram",
+    "bot",
+    "forwardbot"
+  ],
+  "repository": "hhttps://github.com/sakhaavvaavaj93/forwardbot",
+  "env": {
+    "ENV": {
+      "description": "Setting this to ANYTHING will enable env variables.",
+      "value": "ANYTHING"
+    },
+    "API_KEY": {
+      "description": "Your bot API KEY, get this value from @BotFather.",
+      "value": "1608792213:AAFXoXyW-P0zipOfaOeR_--WIomkp3PnZ7s"
+    },
+    "OWNER_ID": {
+      "description": "An integer of consisting of your owner ID.",
+      "value": "998920177"
+    },
+    "FROM_CHATS": {
+      "description": "List of chat id's to forward messages from.",
+      "value" : "-1001410827482",
+      "required": false
+    },
+    "TO_CHATS": {
+      "description": "List of chat id's to forward messages to",
+      "value" : "-1001386516675",
+      "required": false
+    },
+    "WEBHOOK": {
+      "description": "Setting this to ANYTHING will enable webhooks when in env mode messages.",
+      "required": false
+    },
+    "IP_ADDRESS": {
+      "description": "leave it 0.0.0.0 if using Heroku.",
+      "value": "0.0.0.0"
+    },
+    "URL": {
+      "description": "The URL your webhook should connect to (only needed for webhook mode).",
+      "value": "None"
+    },
+    "PORT": {
+      "description": "Port to listen on for webhooks.",
+      "value": "5000"
+    },
+    "CERT_PATH": {
+      "description": "Path to certificate file (leave it blank if you don't know).",
+      "required": false
+    },
+    "WORKERS": {
+      "description": "Number of threads to use, this depends on usage.  4 is the recommended (and default) amount, but your experience may vary.",
+      "value": "6"
+    }
+  }
+} 
