@@ -3,7 +3,7 @@ import importlib
 from telegram import ParseMode
 from telegram.ext import CommandHandler, Filters
 
-from forwarder import API_KEY, OWNER_ID, WEBHOOK, IP_ADDRESS, URL, CERT_PATH, PORT, LOGGER, \
+from forwardbot import API_KEY, OWNER_ID, WEBHOOK, IP_ADDRESS, URL, CERT_PATH, PORT, LOGGER, \
     updater, dispatcher
 from forwarder.modules import ALL_MODULES
 
