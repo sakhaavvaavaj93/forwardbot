@@ -1,7 +1,6 @@
 from telegram import Bot, Update
 from telegram import ParseMode
 from telegram.ext import MessageHandler, Filters
-
 from forwardbot import OWNER_ID, FROM_CHATS, TO_CHATS, dispatcher
 
 
