@@ -1,6 +1,6 @@
 # forwardbot 
 
-[![tcp_forwordbot](https://telegra.ph/file/90cb5259d0d77b4e0bd11.jpg)
+![tcp_forwordbot](https://telegra.ph/file/90cb5259d0d77b4e0bd11.jpg)
 
 A simple Telegram Python bot running on Python3 to automatically forward messages from one chat to another.
 
