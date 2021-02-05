@@ -5,7 +5,7 @@ from telegram.ext import CommandHandler, Filters
 
 from forwardbot import API_KEY, OWNER_ID, WEBHOOK, IP_ADDRESS, URL, CERT_PATH, PORT, LOGGER, \
     updater, dispatcher
-from forwarder.modules import ALL_MODULES
+from forwardbot.modules import ALL_MODULES
 
 PM_START_TEXT = """
 Hey {}, I'm [forwardbot](https://telegra.ph/file/60bc6f589cd23bbb90619.jpg)!
